@@ -6,10 +6,17 @@ pipeline {
 		stage('Build') {
 			steps {
 				echo 'Building..'
-				sh 'cs4110helloworldbuild script ./helloworld'
+				##############################################################
+				# Uncomment exactly one of these lines below and customize it
+				#   for your particular language and IDE
+
+				#sh 'cs4110helloworldbuild script ./helloworld'
 				#sh 'cs4110helloworldbuild swift helloworld.swift'
 				#sh 'cs4110helloworldbuild java "HelloWorld/HelloWorld.java"'
 				#sh 'cs4110helloworldbuild c# "HelloWorld/HelloWorld.cs"'
+
+				# Touch nothing else in this file.
+				##############################################################
 			}
 			post {
 				failure {
