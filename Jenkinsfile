@@ -1,6 +1,9 @@
 // Jenkinsfile for Hello World in CS 4110
 pipeline {
-	agent any
+	agent {
+		node { label 'ubuntuvps' }
+	}
+
 
 	stages {
 		stage('Build') {
