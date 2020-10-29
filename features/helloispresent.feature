@@ -6,4 +6,5 @@ Feature: Script must be present and be executable
 
 	Scenario: hello must be executable
 		When I run `helloworld` 
+        And OUTPUT is printed
 		Then 25 points are awarded
