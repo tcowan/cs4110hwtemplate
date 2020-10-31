@@ -1,3 +1,4 @@
+# Edit this file only as instructed.
 ---
 # language: the choices are (uncomment exactly one)
 #   java, swift, script or c#
@@ -9,6 +10,9 @@ language: script
 # files: list your source file(s) and do not use tabs in this file.
 #   Each file must be preceeded by a hyphen and indented two spaces.
 #   It is safest to enclose the filename in "double quotes".
+#
+#   Do not include a leading "/".  The pathname must be relative to
+#   the root folder of your repo.
 files: 
   #- "HelloWorldJava/HelloWorld.java"
   #- "hello.swift"
