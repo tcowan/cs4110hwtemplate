@@ -1,11 +1,13 @@
 # Edit this file only as instructed.
 ---
 # language: the choices are (uncomment exactly one)
-#   java, swift, script or c#
+#   java, swift, script, c, c++ or c#
 #language: java
 #language: swift
 language: script
 #language: c#
+#language: c
+#language: c++
 
 # files: list your source file(s) and do not use tabs in this file.
 #   Each file must be preceeded by a hyphen and indented two spaces.
@@ -17,4 +19,6 @@ files:
   #- "HelloWorldJava/HelloWorld.java"
   #- "hello.swift"
   #- "HelloWorldC#/hello.cs"
+  #- "hello.c"
+  #- "hello.cpp"
   - "hello.sh"
